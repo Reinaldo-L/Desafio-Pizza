@@ -1,0 +1,74 @@
+ /* Estilos para la tarjeta de pizza */
+.pizza-card {
+    width: 260px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-left: 30px;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    top: -175px;
+}
+
+/* Estilos para la imagen de la pizza */
+.pizza-card .pizza-image {
+    max-width: 100%;
+}
+
+/* Estilos para el nombre de la pizza */
+.pizza-card .pizza-name {
+    display: flex; 
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.pizza-ingredients {
+    width: 220px;
+    display: inline-block;
+    border: 1px solid #d1d0d0;
+    border-radius: 5px;
+    margin: 7px;
+    background-color: #fff;
+}
+
+/* Estilos para la lista de ingredientes */
+.pizza-card .pizza-ingredients p {
+    font-weight: bold;
+    display: flex; 
+    align-items: center;
+}
+
+.pizza-card .pizza-ingredients ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.pizza-card .pizza-ingredients li {
+    margin: 5px;
+    display: flex; 
+    align-items: center;
+}
+
+.pizza-card .pizza-ingredients li::before {
+    content: '🍕'; /* Agrega el icono de pizza antes de cada elemento de la lista */
+    margin-right: 10px;
+}
+
+/* Estilos para el precio de la pizza */
+.pizza-card .pizza-price {
+    font-size: 18px;
+    color: #090707;
+}
+
+/* Estilos para el contenedor de botones */
+.pizza-card .button-container {
+    margin: 10px;
+}
+
+/* Estilos para los botones */
+.pizza-card button {
+    margin: 14px;
+} 

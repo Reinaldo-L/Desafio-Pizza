@@ -1,0 +1,57 @@
+/* pizzaStyle.css */
+
+/* Estilo para la tarjeta de detalles de pizza */
+.card.pizza-detail-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 250px;
+    max-width: 1000px;
+    flex-direction: row;
+    top: -160px;
+    position: relative;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* Estilo para la imagen de la pizza (columna derecha) */
+.card.pizza-detail-card .card-img-top {
+    max-width: 350px;
+    max-height: 397px;
+    object-fit: cover;
+}
+
+/* Estilo para el contenedor de la información (columna izquierda) */
+.card-body {
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* Estilo para el título de la tarjeta */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la sección de ingredientes */
+.pizza-ingredients {
+    margin-top: 4px;
+}
+
+.pizza-ingredients li {
+    display: flex;
+}
+
+.card.pizza-ingredients li::before {
+    content: '🍕'; /* Agrega el icono de pizza antes de cada elemento de la lista */
+    margin-right: 10px;
+}
+
+.button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+

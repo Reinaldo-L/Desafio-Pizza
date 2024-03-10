@@ -1,0 +1,55 @@
+/* Estilo para el contenedor principal del carrito */
+.cart {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #fff;
+    margin-top: 120px;
+
+}
+
+/* Estilo para los detalles de cada pizza en el carrito */
+.pizza-cart {
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+/* Estilo para la imagen de la pizza */
+.pizza-img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el nombre de la pizza */
+.pizza-details p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Estilo para el precio de la pizza */
+.pizza-details .price {
+    font-size: 16px;
+    color: #009900;
+    margin-top: 5px;
+}
+
+/* Estilo para el control de cantidad de pizzas */
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    margin: 0 5px;
+}
+
+/* Estilo para el botón "Ir a pagar" */
+.cart .btn-success {
+    margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+/*__Diseños__ */
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Cambiar el fondo al pasar el cursor sobre el enlace del carrito */
+.nav-link:hover.cart-link {
+    background-color: #77d6f3; 
+}
+
+/* Cambiar el fondo al pasar el cursor sobre el enlace del texto */
+.nav-link:hover.text-link {
+    background-color: #77d6f3;
+}
+
